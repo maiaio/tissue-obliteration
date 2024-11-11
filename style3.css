@@ -1,0 +1,62 @@
+.nervous-system {
+    width:1000px;
+    height:auto;
+}
+
+.container {
+    text-align: center; 
+    margin-top: 20px; 
+    position:absolute;
+    top:5%;
+    left:50%;
+    transform:translate(-50%, -50%);
+}
+
+button {
+    font-size: 24px; 
+    padding: 10px 20px; 
+    cursor: pointer; 
+    background-color: #0fcef5; 
+    border: 2px solid #000; 
+    border-radius: 15px; 
+    color: #000; 
+}
+
+body {
+    
+    background:WHITE;
+    font-family: Helvetica;
+    font-size:large;
+    margin:0px;
+    text-align: center;
+    display: inline-block; 
+    padding: 0px; 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center center; 
+    margin: 0; 
+    height: 100vh; 
+   
+}
+
+img {
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%);
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
+}
+
+.containerbottom {
+    position: relative;
+    min-height: 100vh; 
+}
+
+.bottom-text {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%); 
+    text-align: center;
+    padding: 10px; 
+}
